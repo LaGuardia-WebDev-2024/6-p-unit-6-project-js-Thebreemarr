@@ -21,22 +21,33 @@ Select ONE Additional
     <title>Unit 6 Project</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/processing.js/1.6.6/processing.min.js"></script>
-    <style></style>
+    <style>
+      .white-text {color: rgb(255,255,255)}
+      .text {background-color: rgb(255,255,255)}
+      .container {display: flex; justify-content:space-around;
+      background-color: rgb(1, 34, 138 )}
+      body {background-image: url(https://thumbs.dreamstime.com/b/dive-mystical-realm-where-hammerhead-sharks-glide-ethereal-rays-deep-blue-oceanic-wonderland-experience-330923871.jpg)}
+      .box {background-color: rgb(255,255,255)}
+    </style>
   </head>
 
   <body>
     <div class="container">
-      <div>
-        <h2 id="start">How it started.</h2>
+      <div class="box">
+        <h2 id="start" class="text">How it started.</h2>
         <img
-          class="pic" src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c7/Chill_guy_original_artwork.jpg/220px-Chill_guy_original_artwork.jpg"
-        />
+          class="pic" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6ee60044-8fdf-4a73-be15-e65bbc6f7417/dgke0kg-7e2060e4-f1a6-400e-9122-6ae4760bd488.png/v1/fill/w_1280,h_1469/the_shark_with_the_silly_bow_by_airena14_dgke0kg-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTQ2OSIsInBhdGgiOiJcL2ZcLzZlZTYwMDQ0LThmZGYtNGE3My1iZTE1LWU2NWJiYzZmNzQxN1wvZGdrZTBrZy03ZTIwNjBlNC1mMWE2LTQwMGUtOTEyMi02YWU0NzYwYmQ0ODgucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.fbo5agY0UzWonHTHpAC5UBc0FfwMKxDgdJy1mgJEJNs"
+/>
       </div>
-      <div>
-        <h2 id="end">How it ended.</h2>
+      <div class="box">
+        <h2 id="end" class="text">How its going.</h2>
         <canvas id="myCanvas" data-processing-sources="myP5Code.pde"> </canvas>
       </div>
+      
     </div>
+      <h3 class="white-text">
+    By Bree Marr
+      </h3>
   </body>
 </html>
 
